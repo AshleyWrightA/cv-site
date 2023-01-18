@@ -1,2 +1,1 @@
-# cv-site
-Resume website
+Resume Website created using React and Webpack.
