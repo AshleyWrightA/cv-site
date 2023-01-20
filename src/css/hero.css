@@ -1,6 +1,8 @@
 .hero {
-  padding-inline: min(20vw, 30rem);
-  padding-block: min(20vh, 30rem);
+  padding-top: min(30vh);
+  padding-inline: min(24vw, 36rem);
+
+  height: 65vh;
 
   display: flex;
   flex-direction: column;
