@@ -1,6 +1,5 @@
-.hero {
-  padding-top: min(30vh);
-  padding-inline: min(24vw, 36rem);
+.hero-div {
+  padding-top: min(35vh);
 
   height: 65vh;
 
@@ -19,8 +18,6 @@
 
   display: flex;
   justify-content: left;
-
-  font-size: 4.8rem;
 }
 
 .typed-cursor {

@@ -16,3 +16,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+h1 {
+  font-size: 6rem;
+}
+
+.page-div {
+  padding-inline: min(24vw, 36rem);
+}

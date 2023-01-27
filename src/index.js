@@ -5,11 +5,13 @@ import "./css/index.css";
 import "./css/header.css";
 import "./css/hero.css";
 import "./css/about.css";
-import "./css/Skills.css";
-import Header from "./app/Header";
-import Hero from "./app/Hero";
-import About from "./app/About";
-import Skills from "./app/Skills";
+import "./css/skills.css";
+import "./css/project.css";
+import Header from "./app/components/Header";
+import Hero from "./app/components/Hero";
+import About from "./app/components/About";
+import Skills from "./app/components/Skills";
+import Projects from "./app/components/Projects";
 import reportWebVitals from "./test/reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -19,6 +21,7 @@ root.render(
     <Hero />
     <About />
     <Skills />
+    <Projects />
   </div>
 );
 

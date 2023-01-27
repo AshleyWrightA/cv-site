@@ -1,8 +1,7 @@
-.header {
-  padding-inline: min(24vw, 36rem);
-
+.header-div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: rgb(190, 71, 71);
 }
 
@@ -11,25 +10,25 @@
   gap: 1rem;
 }
 
-.header button {
+.header-div button {
   margin: 1rem 0;
 
+  font-size: 1.6rem;
   color: rgb(200, 200, 200);
 
-  font-size: 2rem;
   border: 0;
   background-color: transparent;
 }
 
-.header button:hover {
+.header-div button:hover {
   text-decoration: underline;
 }
 
-.header button:active {
+.header-div button:active {
   color: white;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .header-button-home,
   .header-button-about,
   .header-button-skills,
@@ -39,7 +38,7 @@
   }
 }
 
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   .header-button-navigation {
     display: none;
   }

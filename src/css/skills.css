@@ -1,0 +1,45 @@
+.skills-div h1 {
+  margin: 4rem 0;
+}
+
+.skills-div-skillblock-container {
+  display: grid;
+  grid: 1fr / repeat(3, 1fr);
+  gap: 6rem;
+}
+
+.skillblock-div {
+  padding: 0 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 2rem;
+
+  background-color: rgb(101, 101, 134);
+  border-radius: 16px;
+}
+
+.skillblock-div:hover {
+  outline: solid purple 4px;
+}
+
+.skillblock-div h2 {
+  align-self: center;
+}
+
+.skillelement-div {
+  display: grid;
+  grid: 1fr / 1fr 1fr;
+
+  justify-items: end;
+}
+
+.skillelement-div p {
+  justify-self: flex-start;
+}
+
+.skillelement-div svg {
+  width: 36px;
+  height: 36px;
+}

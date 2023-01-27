@@ -1,0 +1,25 @@
+.project-div-container {
+  display: grid;
+  grid: repeat(4, 1fr) / repeat(3, 1fr);
+  gap: 2rem;
+
+  background-color: rgb(71, 64, 105);
+}
+
+.project-div h1 {
+  margin: 4rem 0;
+}
+
+.projectblock {
+  padding: 1rem;
+
+  border-radius: 10px;
+  background-color: darkgray;
+
+  font-size: 1.6rem;
+}
+
+.projectblock h2 {
+  color: purple;
+  font-size: 2.4rem;
+}
