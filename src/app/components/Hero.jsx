@@ -19,9 +19,15 @@ class Hero extends Component {
           faucibus leo semper ac.
         </p>
         <div className="hero-div-button-container">
-          <button className="hero-button-about">About Me</button>
-          <button className="hero-button-projects">Projects</button>
-          <button className="hero-button-contact">Contact</button>
+          <a className="hero-anchor-about hero-anchor" href="#about">
+            About Me
+          </a>
+          <a className="hero-button-projects hero-anchor" href="#project">
+            Projects
+          </a>
+          <a className="hero-button-contact hero-anchor" href="#contact">
+            Contact
+          </a>
         </div>
       </div>
     );

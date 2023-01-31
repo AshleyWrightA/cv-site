@@ -1,5 +1,6 @@
 .hero-div {
-  padding-top: min(35vh);
+  padding-top: min(30vh);
+  padding-bottom: min(20vh);
 
   height: 65vh;
 
@@ -7,10 +8,6 @@
   flex-direction: column;
   align-items: center;
   gap: 6rem;
-}
-
-.hero p {
-  font-size: 1.6rem;
 }
 
 .hero-div-text-container {
@@ -23,14 +20,36 @@
 .typed-cursor {
   color: blue;
   font-style: italic;
+  font-size: 4rem;
+}
+
+.hero-anchor {
+  padding: 2rem;
+  border-radius: 15px;
+  background-color: lightblue;
+
+  overflow-x: hidden;
+}
+
+.hero-anchor:active {
+  background-color: rgb(46, 85, 138);
+  overflow-x: hidden;
 }
 
 .hero-div-button-container {
-  display: flex;
+  margin: 4rem;
 
+  display: flex;
   gap: 1rem;
 }
 
-.hero-div-button-container button {
-  font-size: 2.4rem;
+@media (max-width: 800px) {
+  .hero-div {
+    padding-top: min(20vh);
+  }
+
+  .hero-anchor {
+    padding: 1.5rem;
+    font-size: 1.8rem;
+  }
 }

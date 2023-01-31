@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 import { languageData, technologyData, otherData } from "../data/skills-data";
 
-const Skills = () => {
+function SkillComponent() {
   return (
     <div className="skills-div page-div">
       <h1>My Skills</h1>
@@ -12,9 +12,9 @@ const Skills = () => {
       </div>
     </div>
   );
-};
+}
 
-const SkillBlock = (props) => {
+function SkillBlock(props) {
   const arrayOfSkillElements = props.skillData.map((skill, i) => {
     return <SkillElement key={i} name={skill.name} icon={skill.icon} />;
   });
@@ -25,15 +25,15 @@ const SkillBlock = (props) => {
       {arrayOfSkillElements}
     </div>
   );
-};
+}
 
-const SkillElement = (props) => {
+function SkillElement(props) {
   return (
     <div className="skillelement-div">
       <p>{props.name}</p>
       <Icon icon={props.icon} />
     </div>
   );
-};
+}
 
-export default Skills;
+export default SkillComponent;

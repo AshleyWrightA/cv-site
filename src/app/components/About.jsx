@@ -1,6 +1,6 @@
-const About = () => {
+function About() {
   return (
-    <div className="about-div page-div">
+    <div className="about-div page-div" id="about">
       <p>
         Donec dolor enim, convallis eget blandit nec, porta sed ante. Duis aliquam eros at mollis
         pretium. Vestibulum quam ligula, congue vel leo sed, pulvinar luctus lacus. Aenean non
@@ -13,6 +13,6 @@ const About = () => {
       </p>
     </div>
   );
-};
+}
 
 export default About;

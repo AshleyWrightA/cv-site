@@ -2,7 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(190, 71, 71);
+  background-color: rgb(71, 119, 190);
+}
+
+.header-div h2 {
+  font-size: 3.2rem;
 }
 
 .header-container-right {
@@ -14,7 +18,7 @@
   margin: 1rem 0;
 
   font-size: 1.6rem;
-  color: rgb(200, 200, 200);
+  color: rgb(230, 230, 230);
 
   border: 0;
   background-color: transparent;
