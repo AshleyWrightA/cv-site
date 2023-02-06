@@ -1,5 +1,13 @@
 .about-div {
   padding-block: min(6vh, 4rem);
+  background-color: var(--palette-2);
+}
 
-  background-color: rgb(71, 64, 105);
+@media (max-width: 800px) {
+  .about-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

@@ -3,12 +3,20 @@ import { languageData, technologyData, otherData } from "../data/skills-data";
 
 function SkillComponent() {
   return (
-    <div className="skills-div page-div">
+    <div className="skill-div page-div" id="skill">
       <h1>My Skills</h1>
-      <div className="skills-div-skillblock-container">
-        <SkillBlock categoryIcon="" header="Languages" skillData={languageData} />
-        <SkillBlock categoryIcon="" header="Technologies & Tools" skillData={technologyData} />
-        <SkillBlock categoryIcon="" header="Other Skills" skillData={otherData} />
+      <div className="skill-div-skillblock-container">
+        <SkillBlock
+          icon="mdi:application-brackets-outline"
+          header="Languages"
+          skillData={languageData}
+        />
+        <SkillBlock
+          icon="ant-design:tool-outlined"
+          header="Technologies & Tools"
+          skillData={technologyData}
+        />
+        <SkillBlock icon="mdi:lightbulb-on-20" header="Other Skills" skillData={otherData} />
       </div>
     </div>
   );
@@ -20,8 +28,10 @@ function SkillBlock(props) {
   });
   return (
     <div className="skillblock-div">
-      <img src="" alt=""></img>
-      <h2>{props.header}</h2>
+      <div className="skillblock-header">
+        <Icon className="skills-skillblock-icon" icon={props.icon} />
+        <h2>{props.header}</h2>
+      </div>
       {arrayOfSkillElements}
     </div>
   );

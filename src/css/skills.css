@@ -1,7 +1,11 @@
-.skills-div-skillblock-container {
+.skill-div {
+  padding-bottom: 8rem;
+}
+
+.skill-div-skillblock-container {
   display: grid;
   grid: 1fr / repeat(3, 1fr);
-  gap: 6rem;
+  gap: 4rem;
 }
 
 .skillblock-div {
@@ -12,18 +16,29 @@
   align-items: stretch;
   gap: 2rem;
 
-  background-color: rgb(101, 101, 134);
+  background-color: var(--palette-2);
   border-radius: 16px;
 
   overflow-x: hidden;
 }
 
 .skillblock-div:hover {
-  outline: solid purple 4px;
+  outline: solid var(--palette-1);
 }
 
-.skillblock-div h2 {
+.skillblock-header {
+  margin-bottom: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-skillblock-icon {
+  margin-top: 1rem;
   align-self: center;
+  font-size: 7vw;
+  color: var(--palette-1);
 }
 
 .skillelement-div {
@@ -43,16 +58,15 @@
 }
 
 @media (max-width: 800px) {
-  .skills-div {
+  .skill-div,
+  .skill-div-skillblock-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .skills-div-skillblock-container {
-    display: grid;
-    grid: 1fr / 1fr;
-    gap: 4rem;
+  .skillblock-div {
+    width: 89%;
   }
 }

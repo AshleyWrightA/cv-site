@@ -1,14 +1,15 @@
 .contact-div {
+  padding-top: 0;
   height: 30vh;
-}
 
-.contact-div h1 {
-  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .contact-anchor-container {
   display: flex;
-  gap: 4rem;
+  gap: 6rem;
   justify-content: center;
 
   font-size: 4rem;
@@ -17,6 +18,10 @@
 .contact-anchor-container a {
   color: white;
   align-items: center;
+}
+
+.anchor:hover {
+  color: var(--palette-3);
 }
 
 @media (max-width: 800px) {

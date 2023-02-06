@@ -13,29 +13,29 @@ export default function Header() {
     <div className="header-div page-div">
       <h2>Ashley Wright</h2>
       <div className="header-container-right">
-        <button className="header-button-home">
+        <a href="#hero" className="header-anchor-home">
           <FontAwesomeIcon icon={faHome} />
           Home
-        </button>
-        <button className="header-button-about">
+        </a>
+        <a href="#about" className="header-anchor-about">
           <FontAwesomeIcon icon={faCircleUser} />
           About
-        </button>
-        <button className="header-button-skills">
+        </a>
+        <a href="#skill" className="header-anchor-skills">
           <FontAwesomeIcon icon={faWandMagicSparkles} />
           Skills
-        </button>
-        <button className="header-button-projects">
+        </a>
+        <a href="#project" className="header-anchor-projects">
           <FontAwesomeIcon icon={faHammer} />
           Projects
-        </button>
-        <button className="header-button-contact">
+        </a>
+        <a href="#contact" className="header-anchor-contact">
           <FontAwesomeIcon icon={faEnvelope} />
           Contact
-        </button>
-        <button className="header-button-navigation">
+        </a>
+        <a href="" className="header-anchor-navigation">
           <FontAwesomeIcon icon={faBars} />
-        </button>
+        </a>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 .project-div {
-  background-color: rgb(71, 64, 105);
+  background-color: var(--palette-2);
 }
 
 .project-div h1 {
@@ -8,24 +8,50 @@
 
 .project-div-container {
   display: grid;
-  grid: repeat(4, 1fr) / repeat(3, 1fr);
+  grid: repeat(2, 1fr) / repeat(3, 1fr);
   gap: 2rem;
 }
 
 .projectblock {
   padding: 1rem;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
   border-radius: 10px;
-  background-color: darkgray;
+  background-color: var(--background);
 
   font-size: 1.6rem;
 
   overflow-x: hidden;
 }
 
+.projectblock img {
+  width: 100%;
+}
+
 .projectblock h2 {
-  color: purple;
+  color: var(--palette-1);
   font-size: 2.4rem;
+}
+
+.projectblock a {
+  padding: 1rem;
+
+  border-radius: 1rem;
+  background-color: var(--palette-3);
+}
+
+.projectblock-div-tech {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.project-projectblock-container {
+  display: flex;
+  gap: 2rem;
 }
 
 @media (max-width: 800px) {
