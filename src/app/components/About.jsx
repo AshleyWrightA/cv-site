@@ -1,15 +1,12 @@
 function About() {
   return (
     <div className="about-div page-div" id="about">
+      <h1>About Me</h1>
       <p>
-        Donec dolor enim, convallis eget blandit nec, porta sed ante. Duis aliquam eros at mollis
-        pretium. Vestibulum quam ligula, congue vel leo sed, pulvinar luctus lacus. Aenean non
-        pretium tellus. Maecenas sagittis elit ut augue placerat sagittis. Duis quis ligula eu arcu
-        laoreet porttitor. Quisque ut lectus at orci mollis convallis vel eu lacus. Nunc a urna
-        arcu. Aliquam gravida mi id arcu tincidunt, a venenatis orci dictum. Nam aliquet urna vel
-        diam blandit, ut semper est sagittis. Phasellus cursus eget massa id vulputate. Curabitur
-        sollicitudin, ipsum eget tempus convallis, enim nibh condimentum nunc, sit amet molestie est
-        tellus id leo.
+        Hello, I'm a graduate of NAIT who studied a mix of Systems Administration & Programming.
+        After completing my courses I deceided to pursue coding and development completely. I
+        currently specialize in front-end web development, with a goal of creating Full Stack stack
+        projects and maintaining continuous learning.
       </p>
     </div>
   );

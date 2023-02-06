@@ -16,7 +16,14 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.(ico)$/i,
+        test: /\.jsx?$/,
+        loader: "babel-loader",
+        options: {
+          presets: ["@babel/preset-react"],
+        },
+      },
+      {
+        test: /\.(ico|png|svg)$/i,
         type: "asset/resource",
       },
     ],

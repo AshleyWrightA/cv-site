@@ -6,13 +6,13 @@ export default function ContactComponent() {
       <h1>Contact</h1>
       <div className="contact-anchor-container">
         <div>
-          <a href="https://github.com/AshleyWrightA">
+          <a href="https://github.com/AshleyWrightA" className="anchor">
             Github
             <Icon icon="ion:logo-github" />
           </a>
         </div>
         <div>
-          <a href="https://www.linkedin.com/in/ashleywrighta/">
+          <a href="https://www.linkedin.com/in/ashleywrighta/" className="anchor">
             Linked
             <Icon icon="ion:logo-linkedin" />
           </a>

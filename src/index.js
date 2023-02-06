@@ -14,7 +14,6 @@ import About from "./app/components/About";
 import Skills from "./app/components/Skills";
 import Projects from "./app/components/Projects";
 import Contact from "./app/components/Contact";
-import reportWebVitals from "./test/reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -28,7 +27,16 @@ root.render(
   </div>
 );
 
+window.onscroll = function () {
+  const headerDiv = document.querySelector(".header-div");
+  if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 4000) {
+    headerDiv.style.backgroundColor = "transparent";
+  }
+  if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 2000) {
+    headerDiv.style.backgroundColor = "var(--palette-1)";
+  }
+};
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
