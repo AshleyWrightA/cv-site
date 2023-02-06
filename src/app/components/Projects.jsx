@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Icon } from "@iconify/react";
 import localRepoData from "../data/project-data.js";
-import etch from "../../assets/images/etchasketch.png";
 
 function ProjectDataHandler() {
   const [githubData, setGithubData] = useState();

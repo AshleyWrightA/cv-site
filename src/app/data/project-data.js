@@ -3,6 +3,7 @@ import forms from "../../assets/images/forms.png";
 import resume from "../../assets/images/resume.png";
 import tarotcafe from "../../assets/images/tarotcafe.png";
 import treasure from "../../assets/images/treasure.png";
+import passwordmanager from "../../assets/images/passwordmanager.png";
 
 const localRepoData = [
   {
@@ -46,6 +47,15 @@ const localRepoData = [
     displayName: "TTRPG Treasure Generator",
     previewImage: treasure,
     previewAlt: "",
+    tech: ["logos:python"],
+    ghPages: "",
+    demo: false,
+  },
+  {
+    id: 598309430,
+    displayName: "Password Manager",
+    previewImage: passwordmanager,
+    previewAlt: "Password Manager",
     tech: ["logos:python"],
     ghPages: "",
     demo: false,
