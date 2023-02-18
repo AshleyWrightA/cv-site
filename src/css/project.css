@@ -54,6 +54,14 @@
   gap: 2rem;
 }
 
+.project__anchor:hover {
+  background-color: var(--palette-1);
+}
+
+.project__anchor:active {
+  background-color: var(--palette-3);
+}
+
 @media (max-width: 800px) {
   .project-div {
     display: flex;

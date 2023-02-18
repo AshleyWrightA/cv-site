@@ -78,8 +78,12 @@ function ProjectBlockComponent(props) {
           {iconsArr}
         </div>
         <div className="project-projectblock-container">
-          <a href={props.dataObject.ghPages}>Demo</a>
-          <a href={props.dataObject.html_url}>Code</a>
+          <a href={props.dataObject.ghPages} className="project__anchor">
+            Demo
+          </a>
+          <a href={props.dataObject.html_url} className="project__anchor">
+            Code
+          </a>
         </div>
       </div>
     );
@@ -94,7 +98,9 @@ function ProjectBlockComponent(props) {
           {iconsArr}
         </div>
         <div className="project-projectblock-container">
-          <a href={props.dataObject.html_url}>Code</a>
+          <a href={props.dataObject.html_url} className="project__anchor">
+            Code
+          </a>
         </div>
       </div>
     );

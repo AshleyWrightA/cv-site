@@ -25,12 +25,12 @@ const localRepoData = [
     demo: true,
   },
   {
-    id: 560566847,
-    displayName: "Web Forms",
+    id: 601304176,
+    displayName: "Web Forms & Validation",
     previewImage: forms,
     previewAlt: "",
-    tech: ["logos:javascript", "logos:css-3", "logos:html-5"],
-    ghPages: "https://ashleywrighta.github.io/forms-practice/",
+    tech: ["logos:javascript", "logos:css-3", "logos:html-5", "logos:react"],
+    ghPages: "https://ashleywrighta.github.io/forms-react/",
     demo: true,
   },
   {
