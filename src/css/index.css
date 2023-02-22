@@ -5,6 +5,7 @@
   --palette-2: rgb(37, 46, 73);
   --palette-3: rgb(98, 144, 200);
   --background: rgb(39, 39, 39);
+  --background-transparent: rgba(95, 95, 95, 0.767);
 }
 
 html {

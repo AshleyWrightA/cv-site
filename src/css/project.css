@@ -20,15 +20,17 @@
   align-items: center;
   gap: 2rem;
 
+  position: relative;
+
   border-radius: 10px;
   background-color: var(--background);
+  overflow-x: hidden;
 
   font-size: 1.6rem;
-
-  overflow-x: hidden;
 }
 
 .projectblock img {
+  height: 36%;
   width: 100%;
 }
 
@@ -60,6 +62,17 @@
 
 .project__anchor:active {
   background-color: var(--palette-3);
+}
+
+.project__background {
+  height: 100%;
+  width: 100%;
+
+  top: 0;
+  left: 0;
+  position: absolute;
+
+  background-color: var(--background-transparent);
 }
 
 @media (max-width: 800px) {

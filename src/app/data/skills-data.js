@@ -19,11 +19,19 @@ const languageData = [
     name: "CSS",
     icon: "logos:css-3",
   },
+  {
+    name: "SQL",
+    icon: "mdi:sql-query",
+  },
 ];
 const technologyData = [
   {
-    name: "Linux",
+    name: "Linux/Bash",
     icon: "flat-color-icons:linux",
+  },
+  {
+    name: "React",
+    icon: "logos:react",
   },
   {
     name: "Git",
@@ -43,10 +51,6 @@ const technologyData = [
   },
 ];
 const otherData = [
-  {
-    name: "React",
-    icon: "logos:react",
-  },
   {
     name: "Fluent English",
     icon: "twemoji:flag-united-kingdom",
