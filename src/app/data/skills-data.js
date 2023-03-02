@@ -46,6 +46,10 @@ const technologyData = [
     icon: "logos:vim",
   },
   {
+    name: "Powershell",
+    icon: "vscode-icons:file-type-powershell",
+  },
+  {
     name: "Photoshop",
     icon: "logos:adobe-photoshop",
   },

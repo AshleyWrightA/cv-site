@@ -1,1 +1,1 @@
-Resume Website created using React and Webpack.
+Live Resume & Portfolio built with React and Webpack.

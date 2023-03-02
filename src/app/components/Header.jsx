@@ -10,7 +10,7 @@ import {
 
 export default function Header() {
   return (
-    <div className="header-div page-div">
+    <nav className="header-div page-div">
       <h2>Ashley Wright</h2>
       <div className="header-container-right">
         <a href="#hero" className="header-anchor-home">
@@ -37,6 +37,6 @@ export default function Header() {
           <FontAwesomeIcon icon={faBars} />
         </a>
       </div>
-    </div>
+    </nav>
   );
 }
