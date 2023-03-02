@@ -26,13 +26,3 @@ root.render(
     <Contact />
   </div>
 );
-
-window.onscroll = function () {
-  const headerDiv = document.querySelector(".header-nav");
-  if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 4000) {
-    headerDiv.style.backgroundColor = "transparent";
-  }
-  if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 2000) {
-    headerDiv.style.backgroundColor = "var(--palette-1)";
-  }
-};

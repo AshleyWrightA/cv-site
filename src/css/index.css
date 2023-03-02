@@ -52,7 +52,7 @@ a:hover {
 }
 
 .page-div {
-  padding-inline: min(24vw, 36rem);
+  padding-inline: min(24vw, 36vw);
   padding-top: 4rem;
   padding-bottom: 4rem;
 }

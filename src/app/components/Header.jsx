@@ -7,10 +7,28 @@ import {
   faEnvelope,
   faWandMagicSparkles,
 } from "@fortawesome/free-solid-svg-icons";
+import React, { useEffect } from "react";
 
 export default function Header() {
+  function setScrollStyle(backgroundStyle) {
+    const headerNav = document.querySelector(".header-nav");
+    headerNav.style.backgroundColor = backgroundStyle;
+  }
+
+  //ComponenetDidMount
+  useEffect(() => {
+    window.onscroll = function () {
+      const heroDiv = document.querySelector(".hero-div");
+      if (window.innerHeight + window.pageYOffset >= heroDiv.scrollHeight * 1.8) {
+        setScrollStyle("var(--palette-1)");
+      } else {
+        setScrollStyle("transparent");
+      }
+    };
+  }, []);
+
   return (
-    <nav className="header-nav page-div">
+    <nav className="header-nav">
       <h2>Ashley Wright</h2>
       <div className="header-container-right">
         <a href="#hero" className="header-anchor-home">
