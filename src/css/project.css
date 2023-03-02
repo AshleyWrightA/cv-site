@@ -20,8 +20,6 @@
   align-items: center;
   gap: 2rem;
 
-  position: relative;
-
   border-radius: 10px;
   background-color: var(--background);
   overflow-x: hidden;

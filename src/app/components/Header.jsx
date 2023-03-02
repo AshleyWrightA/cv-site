@@ -10,7 +10,7 @@ import {
 
 export default function Header() {
   return (
-    <nav className="header-div page-div">
+    <nav className="header-nav page-div">
       <h2>Ashley Wright</h2>
       <div className="header-container-right">
         <a href="#hero" className="header-anchor-home">

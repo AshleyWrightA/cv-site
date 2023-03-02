@@ -28,7 +28,7 @@ root.render(
 );
 
 window.onscroll = function () {
-  const headerDiv = document.querySelector(".header-div");
+  const headerDiv = document.querySelector(".header-nav");
   if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 4000) {
     headerDiv.style.backgroundColor = "transparent";
   }
