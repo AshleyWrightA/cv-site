@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cv-site/static/css/main.16bebef5.css",
-    "main.js": "/cv-site/static/js/main.984bab43.js",
+    "main.js": "/cv-site/static/js/main.544eb162.js",
     "static/media/tarotcafe.png": "/cv-site/static/media/tarotcafe.75044d51e671886e1339.png",
     "static/media/forms.png": "/cv-site/static/media/forms.8dfece187ffc564467ae.png",
     "static/media/treasure.png": "/cv-site/static/media/treasure.11af47b8d96e4ecf676f.png",
@@ -10,10 +10,10 @@
     "static/media/passwordmanager.png": "/cv-site/static/media/passwordmanager.5b32dde82c53a9c4c97e.png",
     "index.html": "/cv-site/index.html",
     "main.16bebef5.css.map": "/cv-site/static/css/main.16bebef5.css.map",
-    "main.984bab43.js.map": "/cv-site/static/js/main.984bab43.js.map"
+    "main.544eb162.js.map": "/cv-site/static/js/main.544eb162.js.map"
   },
   "entrypoints": [
     "static/css/main.16bebef5.css",
-    "static/js/main.984bab43.js"
+    "static/js/main.544eb162.js"
   ]
 }
