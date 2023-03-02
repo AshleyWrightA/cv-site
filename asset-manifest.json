@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv-site/static/css/main.6162703e.css",
-    "main.js": "/cv-site/static/js/main.63258e0b.js",
+    "main.css": "/cv-site/static/css/main.d51a4c08.css",
+    "main.js": "/cv-site/static/js/main.c992635d.js",
     "static/media/tarotcafe.png": "/cv-site/static/media/tarotcafe.75044d51e671886e1339.png",
     "static/media/forms.png": "/cv-site/static/media/forms.8dfece187ffc564467ae.png",
     "static/media/treasure.png": "/cv-site/static/media/treasure.11af47b8d96e4ecf676f.png",
@@ -9,11 +9,11 @@
     "static/media/etchasketch.png": "/cv-site/static/media/etchasketch.2be952c6087c7969fe98.png",
     "static/media/passwordmanager.png": "/cv-site/static/media/passwordmanager.5b32dde82c53a9c4c97e.png",
     "index.html": "/cv-site/index.html",
-    "main.6162703e.css.map": "/cv-site/static/css/main.6162703e.css.map",
-    "main.63258e0b.js.map": "/cv-site/static/js/main.63258e0b.js.map"
+    "main.d51a4c08.css.map": "/cv-site/static/css/main.d51a4c08.css.map",
+    "main.c992635d.js.map": "/cv-site/static/js/main.c992635d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6162703e.css",
-    "static/js/main.63258e0b.js"
+    "static/css/main.d51a4c08.css",
+    "static/js/main.c992635d.js"
   ]
 }
