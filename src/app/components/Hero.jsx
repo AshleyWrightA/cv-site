@@ -1,32 +1,34 @@
-import { Component } from "react";
+import { Component, useEffect } from "react";
 import Typed from "typed.js";
 
-class Hero extends Component {
-  componentDidMount() {
+function Hero() {
+  //ComponentDidMount
+  useEffect(() => {
     heroLogic();
-  }
-  render() {
-    return (
-      <div className="hero-div page-div" id="hero">
-        <div className="hero-div-text-container">
-          <h1 className="hero-h1-dynamic-intro">I am a&nbsp;</h1>
+  }, []);
+
+  return (
+    <div className="hero-div page-div" id="hero">
+      <div className="hero-div-text-container">
+        <h1 className="hero-h1-dynamic-intro">I am a&nbsp;</h1>
+        <div className="hero-dynamic-text-wrapper">
           <h1 className="hero-h1-dynamic-text">&nbsp;</h1>
         </div>
-        <p className="hero-info">IT graduate, life-long techie with a passion for development.</p>
-        <div className="hero-div-button-container">
-          <a className="hero-anchor-about hero-anchor" href="#about">
-            About Me
-          </a>
-          <a className="hero-button-projects hero-anchor" href="#project">
-            Projects
-          </a>
-          <a className="hero-button-contact hero-anchor" href="#contact">
-            Contact
-          </a>
-        </div>
       </div>
-    );
-  }
+      <p className="hero-info">IT graduate, life-long techie with a passion for development.</p>
+      <div className="hero-div-button-container">
+        <a className="hero-anchor-about hero-anchor" href="#about">
+          About Me
+        </a>
+        <a className="hero-button-projects hero-anchor" href="#project">
+          Projects
+        </a>
+        <a className="hero-button-contact hero-anchor" href="#contact">
+          Contact
+        </a>
+      </div>
+    </div>
+  );
 }
 
 function heroLogic() {
@@ -50,6 +52,13 @@ function heroLogic() {
     smartBackspace: true,
     shuffle: true,
   };
+
+  const mobileQuery = window.matchMedia("(max-width: 800px)");
+  if (mobileQuery.matches) {
+    dynamicTextOptions.showCursor = false;
+  } else {
+    dynamicTextOptions.showCursor = true;
+  }
 
   const dynamicText = new Typed(".hero-h1-dynamic-text", dynamicTextOptions);
 }
