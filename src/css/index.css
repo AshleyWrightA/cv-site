@@ -61,4 +61,8 @@ a:hover {
   h1 {
     font-size: 4rem;
   }
+
+  .page-div {
+    padding-inline: min(12vw, 24rem);
+  }
 }
